@@ -108,7 +108,7 @@ body {
 
 .medium {
 	height: 400px;
-	background-color: #80bfff;
+	background-image: linear-gradient(rgba(21, 21, 21, 0.69), rgba(21, 21, 21, 0.13)), url(../IMAGES/CAROUSEL%204.jpg);
 	margin-top: 35px;
 }
 
@@ -117,8 +117,9 @@ body {
 	margin-left: 8.5%;
 	margin-top: 50px;
 	border-radius: 10px;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black
 }
 
 .inner-medium div {
@@ -178,6 +179,13 @@ body {
 		font-size: 18px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
+}
+
+.none{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    margin-top: 30px; 
+    
 }
 
 .secondiv {

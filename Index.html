@@ -1,260 +1,268 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="Landing Page" content="html, css, bootstrap">
-        <meta name="Franklin" content="Rudigo's Official Website">
-        <title></title>
 
-        <!-- bootstrap css -->
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-        <!-- font-awesome-->
-        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-        <!-- google-fonts-api-->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial">
-        <!-- custom css -->
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Landing Page" content="html, css, bootstrap">
+    <meta name="Franklin" content="Rudigo's Official Website">
+    <title></title>
 
-    <body>
-        <nav class="navbar navbar-default navbar-static-top" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- font-awesome-->
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- google-fonts-api-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        ul{
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only"> Toggle navigation </span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand"href="index.html"><img src="IMAGES/rudigo.png" alt="rudigo logo"></a>
-                </div>
-
-                <div id="navbar" class="navbar-collapse collapse">
-                    <a type="button" href="#" class="btn btn-primary navbar-btn navbar-right">Enroll</a>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <a href="#"> Explore </a>
-                        </li>
-                        <li>
-                            <a href="#"> Business </a>
-                        </li>
-                        <li>
-                            <a href="#">Sign In</a>
-                        </li>
-                        <li>
-                            <a href="#">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
+                <a class="navbar-brand" href="index.html"><img src="IMAGES/rudigo.png" alt="rudigo logo" style="width: 120px; height: 80px"></a>
             </div>
-        </nav>  
 
-        <section>
-            <div class="carousel">
-                <br>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                    </ol>
+            <div id="navbar" class="navbar-collapse collapse">
+                <a type="button" href="#" class="btn btn-primary navbar-btn navbar-right">Enroll</a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#"> Explore </a>
+                    </li>
+                    <li>
+                        <a href="#"> Business </a>
+                    </li>
+                    <li>
+                        <a href="#">Sign In</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="IMAGES/image1.jpg" alt="Chania" id="carimg">
-                        </div>
+    <section>
+        <div class="carousel">
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
 
-                        <div class="item">
-                            <img src="IMAGES/image2.jpg" alt="Chania" id="carimg">
-                        </div>
-                    
-                        <div class="item">
-                            <img src="IMAGES/image3.jpg" alt="Flower" id="carimg">
-                        </div>
-
-                        <div class="item">
-                            <img src="IMAGES/image4.jpg" alt="Flower" id="carimg">
-                        </div>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="IMAGES/CAROUSEL%202.jpg" alt="Chania" id="carimg" style="height: 100vh">
                     </div>
 
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"></a>
-                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"></a>
+                    <div class="item">
+                        <img src="IMAGES/CAROUSEL1.jpg" alt="Chania" id="carimg" style="height: 100vh">
+                    </div>
+
+                    <div class="item">
+                        <img src="IMAGES/CAROUSEL%204.jpg" alt="Flower" id="carimg" style="height: 100vh">
+                    </div>
+
+                    <div class="item">
+                        <img src="IMAGES/CAROUSEL%203.jpg" alt="Flower" id="carimg" style="height: 100vh">
+                    </div>
                 </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"></a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"></a>
             </div>
-            <ul class="col-xs-12 list-inline" id="img">
-                <li class="col-md-2 text-center"><img src="IMAGES/mabiri.jpg" alt="mabiri logo"></li>
-                <li class="col-md-2 text-center"><img src="IMAGES/shabtech.jpg" alt="shabtech logo"></li>
-                <li class="col-md-2 text-center"><img src="IMAGES/dewbicon.jpeg" alt="dewbicon logo"></li>
-                <li class="col-md-2 text-center"><img src="IMAGES/gdgph.jpg" alt="gdg ph logo" ></li>
-                <li class="col-md-2 text-center"><img src="IMAGES/tripplesoftt.jpeg" alt="tripplesoft original logo"></li>
-                <li class="col-md-2 text-center"><img src="IMAGES/FF-Logo-black.png" alt="fore front logo"></li>
-            </ul>
-        </section>
-        
-        <div class="container-fluid">
+        </div>
+    </section>
+    <section>
+        <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-md-5 col-xs-12" id="main">
-                        <div class="card col-xs-12">
-                            <div class="row">
-                                <div class="header">
-                                </div>
-                                <div class="footer">
-                                    <h5 class="text-center" id="a">Front End Web</h5>
-                                </div>
+                <div class="col-xs-2"><img src="IMAGES/mabiri.jpg" alt="mabiri logo"></div>
+                <div class="col-xs-2"><img src="IMAGES/shabtech.jpg" alt="shabtech logo" style="margin-top: 15px"></div>
+                <div class="col-xs-2"><img src="IMAGES/dewbicon.jpeg" alt="dewbicon logo" style="margin-top: 40px"></div>
+                <div class="col-xs-2"><img src="IMAGES/gdgph.jpg" alt="gdg ph logo" style="margin-top: 30px"></div>
+                <div class="col-xs-2"><img src="IMAGES/tripplesoftt.jpeg" alt="tripplesoft original logo" style="margin-top: 40px"></div>
+                <div class="col-xs-2"><img src="IMAGES/FF-Logo-black.png" alt="fore front logo" style="margin-top: 40px"></div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-md-5 col-xs-12" id="main">
+                    <div class="card col-xs-12">
+                        <div class="row">
+                            <div class="header">
+                            </div>
+                            <div class="footer">
+                                <h5 class="text-center" id="a">Front End Web</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 col-xs-12" id="main">
-                        <div class="card col-xs-12">
-                            <div class="row">
-                                <div class="header1">
-                                </div>
-                                <div class="footer">
-                                    <h5 class="text-center" id="b">Back End Web</h5>
-                                </div>
+                </div>
+                <div class="col-md-5 col-xs-12" id="main">
+                    <div class="card col-xs-12">
+                        <div class="row">
+                            <div class="header1">
+                            </div>
+                            <div class="footer">
+                                <h5 class="text-center" id="b">Back End Web</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 col-xs-12" id="main">
-                        <div class="card col-xs-12">
-                            <div class="row">
-                                <div class="header2">
-                                </div>
-                                <div class="footer">
-                                    <h5 class="text-center" id="c">Mobile App Dev</h5>
-                                </div>
+                </div>
+                <div class="col-md-5 col-xs-12" id="main">
+                    <div class="card col-xs-12">
+                        <div class="row">
+                            <div class="header2">
+                            </div>
+                            <div class="footer">
+                                <h5 class="text-center" id="c">Mobile App Dev</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 col-xs-12" id="main">
-                        <div class="card col-xs-12">
-                            <div class="row">
-                                <div class="header3">
-                                </div>
-                                <div class="footer">
-                                    <h5 class="text-center" id="d">UI/UX</h5>
-                                </div>
+                </div>
+                <div class="col-md-5 col-xs-12" id="main">
+                    <div class="card col-xs-12">
+                        <div class="row">
+                            <div class="header3">
+                            </div>
+                            <div class="footer">
+                                <h5 class="text-center" id="d">UI/UX</h5>
                             </div>
                         </div>
                     </div>
-                    
+                </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 medium">
+                <div class="col-md-10 col-xs-11 inner-medium">
+                    <div class="col-md-3  col-sm-3 col-xs-12"><img src="IMAGES/Transport-Rocket-icon.png" class="img"></div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <h1>Imagine Your Future!</h1>
+                        <p>The European languages are members of the same family. Their separate existence is a myth.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12"><a href="#" class="btn btn-primary">GET STARTED</a></div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 col-xs-12 medium">
-                    <div class="col-md-10 col-xs-11 inner-medium">
-                        <div class="col-md-3  col-sm-3 col-xs-12"><img src="IMAGES/Transport-Rocket-icon.png" class="img"></div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <h1>Imagine Your Future!</h1>
-                            <p>The European languages are members of the same family. Their separate existence is a myth.</p>
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12"><a href="#" class="btn btn-primary">GET STARTED</a></div>
-                    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1 class="text-center">THE RUDIGO ADVANTAGE</h1>
                 </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-xs-12">
-                        <h2 class="text-center">THE RUDIGO ADVANTAGE</h2>
-                    </div>
-                    <div class="col-xs-12 secondiv">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="col-xs-12">
+                <div class="col-xs-12 secondiv">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-xs-12">
                             <h2 class="col-xs-12">SUITABLE CODING ENVIRONMENT</h2>
-                            <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
-                            </div>
+                            <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. (River Road) (The DeLorean flies above Biff's car, unseen. Marty gets out the binoculars.) There he is, Doc. Let's land on him and cripple his car. Marty, he's in a '46 Ford. We're in a DeLorean. He'd rip through us like we were tin foil. So, what do we do?</p>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="col-xs-12">
-                                <img src="IMAGES/computer-lab.jpg">
-                            </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 none">
+                        <div class="col-xs-12 none">
+                            <img src="IMAGES/computer-lab.jpg" class="none img-responsive">
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6">
-                            <div class="col-xs-12">
-                                <h2 class="col-xs-12">ACCESS TO MATERIALS</h2>
-                                <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
-                            </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6">
+                        <div class="col-xs-12">
+                            <h2 class="col-xs-12">ACCESS TO MATERIALS</h2>
+                            <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Red! (Red looks at him and then walks off. Marty gets a look at Courthouse Square. It's now full of strip bars, adult book stores and the like. There are bikers everywhere - it seems Hill Valley is hosting a biker's convention.  </p>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
-                            <div class="col-xs-12">
-                                <img src="IMAGES/custom_programming.jpg">
-                            </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
+                        <div class="col-xs-12">
+                            <img src="IMAGES/custom_programming.jpg" class="none">
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="col-xs-12">
-                                <h1 class="col-xs-12">CONSTANT POWER SUPPLY</h1>
-                                <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
-                            </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-xs-12">
+                            <h1 class="col-xs-12">CONSTANT POWER SUPPLY</h1>
+                            <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. It's perfect Lorraine! Oh, look how good it is, it looks so good! (Terry drives off as Biff goes over to the girls.) Well lookie what we got here. Pretty nice dress, Lorraine. (He lifts up Lorraine's skirt.) Although, you'd look better wearing nothing at all. Biff, why don't you take a long walk off a short pier?</p>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="col-xs-12">
-                                <img src="IMAGES/light-bulb.jpg">
-                            </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-xs-12">
+                            <img src="IMAGES/light-bulb.jpg" class='none'>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <footer class="col-xs-12">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 body">
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <div class="col-xs-12"><img src="IMAGES/rudigo.png" alt="rudigo's logo" class="footerimg"></div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-                            <p> <i class="fa fa-map-marker"></i> Last floor, Pavillion hostel, by Happy Rollings, Alakahia, Port-Harcourt.</p>
-                            <p><i class="fa fa-phone"></i> Phone (Nigeria) : +2347036525959, +2347032951044</p>
-                            <p><i class="fa fa-envelope"></i> E-mail : hey@rudigo.com</p>
-                        </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <h2 class="col-xs-12">GENERAL LINKS</h2>
-                            <ul class="footer-ul">
-                                <li><a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a></li>
-                                <li><a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a></li>
-                                <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a></li>
-                                <li><a href="mailto:hey@rudigo.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a></li>
-                                <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social-li" class="fa fa-linkedin-square fa-2x social"></i></a></li>
-                                <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gh" class="fa fa-github-square fa-2x social"></i></a></li>
-                                <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social-so" class="fa fa-stack-overflow fa-2x social"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <h2 class="col-xs-12">MORE</h2>
-                            <ul>
-                                <li><a href="#">Training</a></li>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Contact us</a></li>
-                            </ul>
-                        </div>
+    <footer class="col-xs-12" style="margin-top:50px">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 body">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="col-xs-12"><img src="IMAGES/rudigo.png" alt="rudigo's logo" class="footerimg"></div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                        <p> <i class="fa fa-map-marker"></i> Last floor, Pavillion hostel, by Happy Rollings, Alakahia, Port-Harcourt.</p>
+                        <p><i class="fa fa-phone"></i> Phone (Nigeria) : +2347036525959, +2347032951044</p>
+                        <p><i class="fa fa-envelope"></i> E-mail : hey@rudigo.com</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <h2 class="col-xs-12">GENERAL LINKS</h2>
+                        <ul class="footer-ul list-inline">
+                            <li><a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a></li>
+                            <li><a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a></li>
+                            <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a></li>
+                            <li><a href="mailto:hey@rudigo.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a></li>
+                            <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social-li" class="fa fa-linkedin-square fa-2x social"></i></a></li>
+                            <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gh" class="fa fa-github-square fa-2x social"></i></a></li>
+                            <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social-so" class="fa fa-stack-overflow fa-2x social"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <h2 class="col-xs-12">MORE</h2>
+                        <ul>
+                            <li><a href="#">Training</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-12 footer">
-                    &copy RUDIGO 2017
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 footer">
+                &copy RUDIGO 2017
             </div>
-        </footer>
+        </div>
+    </footer>
 
-        <!--jquery-->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <!--Bootstrap.js-->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    </body>
+    <!--jquery-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!--Bootstrap.js-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
